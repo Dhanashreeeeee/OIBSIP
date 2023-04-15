@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+.container{
+    width: 100vw;
+    height: 100vw;
+    background-image: url(f\ .jpg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: ShopifySans, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+.header-content{
+    margin-top: 30px;
+    color:whitesmoke;
+    text-align: center;
+    margin: 15px;
+}
+.header-content h2{
+    font-size: 4vmin;
+    margin: 10px;
+}
+
+input{
+    border: 1px solid;
+    text-align: center;
+}
+button{
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+    background-color:black;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover{
+   color: rgb(47, 45, 45);
+   background-color: whitesmoke;
+}
+
+
+body{
+    background-color: white;
+}
+
+.feed h2{
+margin-top: 150px;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*section*/
+
+.jed{
+    margin-top: 100px;
+    margin-left: 30%;
+    display: flex;
+    gap: 320px;
+    
+}
+.fed{
+    margin-top: 50px;
+    margin-left: 23%;
+    display: flex;
+    gap: 220px;
+    font-weight: bold;
+}
+.ged{
+    margin-top: 20px;
+    margin-left: 18%;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 120px;
+    color: rgb(142, 147, 147);
+}
+.brand hr{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+a:link{
+  margin-left: 70%;
+  color: rgb(9, 75, 9);
+  gap:20px;
+}
+
+.tn{
+    margin-bottom: 40px;
+}
